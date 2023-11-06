@@ -1,0 +1,44 @@
+/* dark.css */
+
+.root {
+    -fx-background-color: #333333; /* Set the background color to dark gray */
+    -fx-text-fill: #ffffff; /* Set text color to white */
+}
+
+.button {
+    -fx-background-color: #666666; /* Set button background color to a darker shade of gray */
+    -fx-text-fill: #ffffff;
+}
+.button.show {
+    -fx-opacity: 1; /* Visible with fade-in effect */
+}
+.button:pressed {
+    -fx-background-color: rgb(165, 217, 212); /* reddish background color */
+    -fx-text-fill: yellow; /* yellow text color */
+}
+.button:hover {
+    -fx-background-color: rgb(163, 83, 117);/* light green background color */
+    -fx-text-fill: yellow; /* White text color */
+}
+
+.label {
+    -fx-text-fill: rgb(199, 2, 84); /* Set text color to red */   
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #3399FF; /* Set background color for selected rows */
+    -fx-text-fill: white; /* Set text color for selected rows */
+}
+
+.table-row-cell:selected .table-cell {
+    -fx-background-color: rgb(163, 83, 117); /* Set background color for focused cells within selected rows */
+    -fx-text-fill: yellow; /* Set text color for focused cells within selected rows */
+}
+
+.table-view {
+    -fx-background-color: rgb(165, 217, 212); /* Set background color for the entire TableView */
+}
+
+.table-row-cell {
+    -fx-background-color: rgb(165, 217, 212); /* Set background color for the table cells */
+}
